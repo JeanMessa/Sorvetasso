@@ -1,0 +1,175 @@
+:root{
+    --cor-menu: rgb(18, 205, 230);
+    --cor-fundo: rgb(222, 239, 241);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu{
+    background-color: var(--cor-menu);
+}
+
+.link a{
+    font-size: 20px;
+    color: #f7e6e6;
+}
+
+.link a :hover{
+    color: #ad1111;
+}
+
+
+.corpo{
+    padding-top: 20px;
+    background-color: var(--cor-fundo);
+    min-height: 100vh;
+    height: max-content;
+}
+
+.quadros a{
+    color: #000;
+    text-decoration: none;
+}
+
+.quadro{
+    border-radius: 50px;
+    background-color: white;
+    border: #313030 2px solid;
+    margin-bottom: 10px;
+}
+
+.quadro-desc{
+    border-top: #313030 2px solid;
+    background-color: var(--cor-menu);
+    border-radius: 0 0 50px 50px;
+    padding-bottom: 10px;
+}
+
+.quadro-desc .linha-topo{
+    color: #fff;
+    font-size: 20px;
+}
+
+.quadro-desc .linha-baixo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+.quadro-desc .linha-baixo a{
+    color: green;
+    font-size: 18px;
+}
+
+.botao a{
+    color: #fff;
+
+}
+
+.imagem{
+    width: 100%;
+    max-width: 150px;
+    border-radius: 20px;
+    height: 225px;
+}
+
+.imagem-detalhes{
+    width: 100%;
+    max-width: 200px;
+    border-radius: 20px;
+    min-height: 225px;
+}
+
+
+.desc{
+    font-size: 20px;
+}
+
+.desc .linha{
+    height: 30%;
+}
+
+.formulario{
+    background-color: var(--cor-fundo)!important;
+}
+
+.desc{
+    margin-bottom: 10px;
+}
+
+.botoes .botao{
+    margin-right: 10%;
+}
+
+.form-carrinho{
+    background-color: var(--cor-fundo)!important;
+}
+
+.form-carrinho #qtd{
+    width: 80px;
+    display: initial;
+    margin-left: 2px;
+}
+
+.form-carrinho #recipiente{
+    width: 200px;
+    display: initial;
+    margin-left: 2px;
+}
+
+.linha input{
+    background-color: var(--cor-fundo);
+    border-style: none;
+    color: var(--bs-body-color);
+}
+
+.linha input:focus-visible{
+    border: 0;
+    border-style: none;
+    color: var(--bs-body-color);
+}
+
+
+.coluna-transparente{
+    background-color: var(--cor-fundo)!important;
+    border: 0;
+}
+
+
+.oculto{
+    visibility: collapse;
+}
+
+.verificar button{
+    text-decoration:none;
+}
+
+.seletor{
+    width: 100% -5px;
+    display: flex;
+    margin-right: 1px;
+}
+
+.selecionar{
+    border: 1px solid #000;
+    border-radius: 10px 10px 0 0;
+    margin-left: 1px;
+    background-color: rgb(139, 243, 238);
+    
+}
+
+.selecionar{
+    text-decoration: none;
+    color:  var(--bs-body-color);
+}
+
+
+.selecionado{
+    background-color: rgb(51, 206, 198);
+}
